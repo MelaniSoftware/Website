@@ -18,6 +18,24 @@ li {
   color: var(--text-color);
 }
 
+#logo {
+  padding-right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5em;
+  margin-right: auto;
+  color: var(--nizz-color);
+  background: linear-gradient(to right, #FFB6C1 0%, #FAF9F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 li {
   line-height: 1.5em;
   padding: 0.5em;
@@ -43,18 +61,6 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 40em;
-}
-
-.heading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0.5em;
-  margin-right: auto;
-  color: var(--nizz-color);
-  background: linear-gradient(to right, #FFB6C1 0%, #FAF9F6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .main-text {
@@ -109,6 +115,20 @@ body {
   color: #FFB6C1;
 }
 
+#nav-wrapper #melani {
+    background-color: #1f2630;
+    color: #FFB6C1;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+#nav-wrapper #melani:hover {
+    background-color: #181e26;
+    color: #FAF9F6;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
 .copyright {
   color: #525252;
   text-align: center;
@@ -139,10 +159,4 @@ body {
 
 .repeating-before li:nth-child(4n)::before {
   content: " 🌷 ";
-}
-
-#logo {
-  padding-right: 10px;
-  width: 32px;
-  height: 32px;
 }
